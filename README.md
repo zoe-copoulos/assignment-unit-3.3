@@ -30,7 +30,6 @@ This part of the assignment will mix more of the array and loop content with mor
 
 > Please do not remove the instruction comments as you complete your work. 
 
-There is also a small styling task in the CSS file this week. We'll build on this a little more next week, but we'll leave exploring CSS mostly in your hands as we focus on the JavaScript. 
 
 Optionally, you may also write any remaining questions you have for the week in the HTML file.
 
