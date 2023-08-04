@@ -25,7 +25,14 @@ if (typeof window === 'object') {
  * Put all tests within this describe.
  */
 describe('Automated tests', function () {
-
+  describe(`partsNeeded variable instantiated and assigned a value of 40`, function () {
+    it(`partsNeeded variable instantiated and assigned a value of 40`, function () {
+        let { partsNeeded } = testItems;
+        expect(partsNeeded, 'Expected partsNeeded be exist').to.exist;
+        expect(partsNeeded).to.be.a('number');
+        expect(partsNeeded).to.equal(40);
+    });
+});
 });
 
 /**
