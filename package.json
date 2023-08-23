@@ -4,11 +4,15 @@
   "description": "This week, we will continue to put more into your tool belt by tackling methods for handling tasks multiple times, storing multiple pieces of information, and more advanced decision tools.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter test/reporter.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PrimeAcademy/prime-pw-week-3-assignment.git"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   },
   "author": "Prime Digital Academy",
   "license": "ISC",
