@@ -22,9 +22,9 @@ As always, start off by forking and cloning this repository from GitHub. Open th
 
 ### Files Provided
 
-- *index.html* (Note: the JS & CSS files are already sourced in)
-- *style.css* (Required Feature)
-- *part-supply.js* (Required Features, & Stretch Goals)
+- *index.html* (Note: JS & CSS files are already sourced)
+- *style.css*
+- *part-supply.js* (Contains **required features** and stretch goals)
 
 This part of the assignment will mix more of the array and loop content with more of the material from earlier weeks. Again, there are comments with instructions for completing each task.
 
