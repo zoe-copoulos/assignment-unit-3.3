@@ -5,7 +5,7 @@ console.log('****** Part Supply *******');
 
 // 1. Create a variable called 'partsNeeded' with a value of the number 40.
 
-let partsNeeded = 40
+let partsNeeded = 40;
 console.log(partsNeeded);
 
 
@@ -49,17 +49,27 @@ let positives = [];
 let negatives = [];
 let zeroes = [];
 
+  
 // for loop
 
-for(let i = 0; i < supplyChanges.length; i++) {
- positives.push[i];
-}
-console.log('positives', positives)
+for (i=0; i < supplyChanges.length; i++)  {
+
+  let number = supplyChanges[i];
+  if (number > 0) {
+  positives.push(number);
+  } else if (number < 0) {
+  negatives.push(number);
+  } else if (number === 0) {
+  zeroes.push(number);
+  }
+  }
+  console.log(positives);
+  console.log(negatives);
+  console.log(zeroes);
 
 // end for
 
-// this one just keeps getting me- assuming it is the same concept as what is stumping me in 3.1 and there must be some small fundamental thing I am totally missing
-
+// I think I finally figured it out
 
 // ***** STRETCH GOALS *********************************************
 // 7. Rewrite the 'for' loop from #6 as a 'for...of' loop. Instead of 'positives',
@@ -75,7 +85,11 @@ console.log('8. Looping through supplyChanges to calculate the sum:');
 
 let totalParts = 0;
 
-
+for (const number of supplyChanges) { 
+  totalParts += number
+  
+}
+console.log(totalParts)
 
 
 // 9. We have a large stash of parts in our warehouse that we 
@@ -94,11 +108,17 @@ console.log('9. Filling boxes with a "while" loop');
 let parts = 572;
 let boxesFilled = 0;
 
-// while (parts > 0 {
+while (parts >= 7) {
+  boxesFilled += 1;
+  parts -= 7;
 
-// come back to this and figure out how 
+}
 
-// })
+console.log(parts);
+console.log(boxesFilled);
+
+
+// still unsure but it made the test happy and that is a win in my book
 
 
 // DO NOT MODIFY
